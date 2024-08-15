@@ -1,0 +1,36 @@
+aside{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(224, 240, 251);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .logo{
+        padding: 15px;
+        margin: 0 auto;
+        width: 80%;
+        text-decoration: none;
+        color: rgb(30, 97, 253);
+        font-weight: 900;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    a{
+        padding: 15px;
+        margin: 0 auto;
+        width: 80%;
+        text-decoration: none;
+        color: #2f2f2f;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    button{
+        background: rgb(61, 118, 250);
+        outline: none;
+        border: none;
+        color: #e2e2e2;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+}
